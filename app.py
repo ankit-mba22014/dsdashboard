@@ -10,11 +10,15 @@ st.title("🏬 Dark Store Efficiency Dashboard")
 picker_data_url = "https://raw.githubusercontent.com/ankit-mba22014/dsdashboard/main/picker_productivity.csv"
 sku_data_url = "https://raw.githubusercontent.com/ankit-mba22014/dsdashboard/main/top_skus.csv"
 low_stock_url = "https://raw.githubusercontent.com/ankit-mba22014/dsdashboard/main/low_stock_skus.csv"
+sku_locations_url = "https://raw.githubusercontent.com/ankit-mba22014/dsdashboard/main/sku_locations.csv"
+guided_path_url = "https://raw.githubusercontent.com/ankit-mba22014/dsdashboard/main/guided_pick_path.csv"
 
 # Load CSVs
 picker_data = pd.read_csv(picker_data_url)
 sku_df = pd.read_csv(sku_data_url)
 low_stock_skus = pd.read_csv(low_stock_url)
+sku_locations = pd.read_csv(sku_locations_url)
+guided_path = pd.read_csv(guided_path_url)
 
 # Sidebar filters (dummy for now)
 st.sidebar.header("🔍 Filters")
@@ -53,6 +57,12 @@ st.markdown("---")
 st.subheader("📊 Inventory Alerts")
 st.warning("⚠️ The following SKUs are low in stock:")
 st.dataframe(low_stock_skus, use_container_width=True)
+
+st.markdown("---")
+
+# Guided Picking Path for Incoming Order
+st.subheader("🚀 Guided Pick Path for Incoming Order")
+st.dataframe(guided_path, use_container_width=True)
 
 st.markdown("---")
 
