@@ -1,0 +1,11 @@
+SKU,Aisle,Rack,Shelf,Pick Sequence
+SKU-01,A,1,Top,1
+SKU-02,A,2,Middle,2
+SKU-03,B,1,Bottom,3
+SKU-04,B,2,Top,4
+SKU-05,C,1,Middle,5
+SKU-06,C,2,Bottom,6
+SKU-07,D,1,Top,7
+SKU-08,D,2,Middle,8
+SKU-09,E,1,Bottom,9
+SKU-10,E,2,Top,10
