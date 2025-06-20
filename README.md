@@ -6,11 +6,11 @@ A Streamlit-based analytics dashboard for monitoring and optimizing operations i
 
 ## 🚀 Features
 
-- 📦 **Order & Picker Metrics**: Total orders, SLA breaches, average pick times, and picker-wise productivity.
-- 🔥 **Top SKUs Visualization**: Bar chart showing most frequently picked items.
-- 📊 **Inventory Alerts**: Low-stock SKU warnings for proactive replenishment.
-- 🚀 **Guided Picking Path**: Optimized SKU path for pickers based on location and sequence.
-- 📍 **Location-Aware SKU Management**: Each SKU mapped to aisle/rack/shelf layout.
+- **Order & Picker Metrics**: Total orders, SLA breaches, average pick times, and picker-wise productivity.
+- **Top SKUs Visualization**: Bar chart showing most frequently picked items.
+- **Inventory Alerts**: Low-stock SKU warnings for proactive replenishment.
+- **Guided Picking Path**: Optimized SKU path for pickers based on location and sequence.
+- **Location-Aware SKU Management**: Each SKU mapped to aisle/rack/shelf layout.
 
 ---
 
@@ -35,7 +35,7 @@ Deploy using [Streamlit Cloud](https://streamlit.io/cloud):
 2. Go to Streamlit Cloud → New App → Connect your GitHub → Select `app.py`.
 3. Click “Deploy”.
 
-Check the deployed verison [Dark Store Dashbboard](https://dsmindashboard.streamlit.app/):
+Check the deployed verison [Dark Store Dashbboard](https://dsmindashboard.streamlit.app/)
 
 ---
 
